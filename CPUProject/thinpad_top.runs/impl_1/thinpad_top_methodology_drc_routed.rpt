@@ -1,0 +1,1640 @@
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date         : Fri Jun 20 18:10:56 2025
+| Host         : PC-20250209HYYK running 64-bit major release  (build 9200)
+| Command      : report_methodology -file thinpad_top_methodology_drc_routed.rpt -pb thinpad_top_methodology_drc_routed.pb -rpx thinpad_top_methodology_drc_routed.rpx
+| Design       : thinpad_top
+| Device       : xc7a200tfbg676-2
+| Speed File   : -2
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 247
++-----------+------------------+-------------------------------------------------------------+------------+
+| Rule      | Severity         | Description                                                 | Violations |
++-----------+------------------+-------------------------------------------------------------+------------+
+| TIMING-4  | Critical Warning | Invalid primary clock redefinition on a clock tree          | 1          |
+| TIMING-17 | Critical Warning | Non-clocked sequential cell                                 | 32         |
+| TIMING-27 | Critical Warning | Invalid primary clock on hierarchical pin                   | 1          |
+| TIMING-36 | Critical Warning | Invalid Generated Clock due to missing edge propagation     | 1          |
+| TIMING-18 | Warning          | Missing input or output delay                               | 29         |
+| TIMING-30 | Warning          | Sub-optimal master source pin selection for generated clock | 1          |
+| XDCH-2    | Warning          | Same min and max delay values on IO port                    | 182        |
++-----------+------------------+-------------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-4#1 Critical Warning
+Invalid primary clock redefinition on a clock tree  
+Invalid clock redefinition on a clock tree. The primary clock clock_gen/inst/clk_in1 is defined downstream of clock clk_50M and overrides its insertion delay and/or waveform definition
+Related violations: <none>
+
+TIMING-17#1 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[0]_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[10]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#4 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[10]_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#5 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[11]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#6 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[11]_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#7 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[12]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#8 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[12]_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#9 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[13]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#10 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[13]_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#11 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[14]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#12 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[14]_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#13 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[15]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#14 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[15]_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#15 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#16 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[1]_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#17 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#18 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[2]_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#19 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#20 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[3]_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#21 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#22 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[4]_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#23 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[5]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#24 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[5]_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#25 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[6]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#26 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[6]_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#27 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[7]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#28 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[7]_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#29 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[8]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#30 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[8]_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#31 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[9]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#32 Critical Warning
+Non-clocked sequential cell  
+The clock pin led_bits_reg[9]_lopt_replica/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-27#1 Critical Warning
+Invalid primary clock on hierarchical pin  
+A primary clock clock_gen/inst/clk_in1 is created on an inappropriate internal pin clock_gen/inst/clk_in1. It is not recommended to create a primary clock on a hierarchical pin when its driver pin has a fanout connected to multiple clock pins
+Related violations: <none>
+
+TIMING-36#1 Critical Warning
+Invalid Generated Clock due to missing edge propagation  
+There is no rising/falling edge propagation between master clock clk_50M to generated clock cpuclk
+Related violations: <none>
+
+TIMING-18#1 Warning
+Missing input or output delay  
+An input delay is missing on rxd relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-18#2 Warning
+Missing input or output delay  
+An output delay is missing on dpy0[0] relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-18#3 Warning
+Missing input or output delay  
+An output delay is missing on dpy0[1] relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-18#4 Warning
+Missing input or output delay  
+An output delay is missing on dpy0[2] relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-18#5 Warning
+Missing input or output delay  
+An output delay is missing on dpy0[3] relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-18#6 Warning
+Missing input or output delay  
+An output delay is missing on dpy0[4] relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-18#7 Warning
+Missing input or output delay  
+An output delay is missing on dpy0[5] relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-18#8 Warning
+Missing input or output delay  
+An output delay is missing on dpy0[6] relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-18#9 Warning
+Missing input or output delay  
+An output delay is missing on dpy0[7] relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-18#10 Warning
+Missing input or output delay  
+An output delay is missing on dpy1[0] relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-18#11 Warning
+Missing input or output delay  
+An output delay is missing on dpy1[1] relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-18#12 Warning
+Missing input or output delay  
+An output delay is missing on dpy1[2] relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-18#13 Warning
+Missing input or output delay  
+An output delay is missing on dpy1[3] relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-18#14 Warning
+Missing input or output delay  
+An output delay is missing on dpy1[4] relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-18#15 Warning
+Missing input or output delay  
+An output delay is missing on dpy1[5] relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-18#16 Warning
+Missing input or output delay  
+An output delay is missing on dpy1[6] relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-18#17 Warning
+Missing input or output delay  
+An output delay is missing on dpy1[7] relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-18#18 Warning
+Missing input or output delay  
+An output delay is missing on txd relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-18#19 Warning
+Missing input or output delay  
+An output delay is missing on video_blue[0] relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-18#20 Warning
+Missing input or output delay  
+An output delay is missing on video_blue[1] relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-18#21 Warning
+Missing input or output delay  
+An output delay is missing on video_de relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-18#22 Warning
+Missing input or output delay  
+An output delay is missing on video_green[0] relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-18#23 Warning
+Missing input or output delay  
+An output delay is missing on video_green[1] relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-18#24 Warning
+Missing input or output delay  
+An output delay is missing on video_green[2] relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-18#25 Warning
+Missing input or output delay  
+An output delay is missing on video_hsync relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-18#26 Warning
+Missing input or output delay  
+An output delay is missing on video_red[0] relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-18#27 Warning
+Missing input or output delay  
+An output delay is missing on video_red[1] relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-18#28 Warning
+Missing input or output delay  
+An output delay is missing on video_red[2] relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-18#29 Warning
+Missing input or output delay  
+An output delay is missing on video_vsync relative to clock(s) clk_50M
+Related violations: <none>
+
+TIMING-30#1 Warning
+Sub-optimal master source pin selection for generated clock  
+The generated clock cpuclk has a sub-optimal master source pin selection, timing can be pessimistic
+Related violations: <none>
+
+XDCH-2#1 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[0]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#2 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[10]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#3 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[11]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#4 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[12]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#5 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[13]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#6 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[14]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#7 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[15]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#8 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[16]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#9 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[17]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#10 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[18]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#11 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[19]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#12 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[1]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#13 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[20]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#14 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[21]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#15 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[22]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#16 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[23]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#17 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[24]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#18 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[25]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#19 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[26]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#20 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[27]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#21 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[28]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#22 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[29]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#23 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[2]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#24 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[30]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#25 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[31]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#26 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[3]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#27 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[4]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#28 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[5]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#29 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[6]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#30 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[7]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#31 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[8]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#32 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'base_ram_data[9]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 17)
+Related violations: <none>
+
+XDCH-2#33 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[0]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#34 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[10]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#35 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[11]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#36 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[12]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#37 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[13]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#38 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[14]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#39 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[15]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#40 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[16]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#41 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[17]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#42 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[18]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#43 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[19]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#44 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[1]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#45 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[20]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#46 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[21]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#47 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[22]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#48 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[23]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#49 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[24]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#50 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[25]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#51 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[26]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#52 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[27]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#53 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[28]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#54 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[29]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#55 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[2]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#56 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[30]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#57 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[31]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#58 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[3]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#59 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[4]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#60 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[5]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#61 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[6]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#62 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[7]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#63 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[8]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#64 Warning
+Same min and max delay values on IO port  
+The same input delay of 5.000 ns has been defined on port 'ext_ram_data[9]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_input_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 5.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 18)
+Related violations: <none>
+
+XDCH-2#65 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_addr[0]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 21)
+Related violations: <none>
+
+XDCH-2#66 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_addr[10]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 21)
+Related violations: <none>
+
+XDCH-2#67 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_addr[11]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 21)
+Related violations: <none>
+
+XDCH-2#68 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_addr[12]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 21)
+Related violations: <none>
+
+XDCH-2#69 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_addr[13]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 21)
+Related violations: <none>
+
+XDCH-2#70 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_addr[14]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 21)
+Related violations: <none>
+
+XDCH-2#71 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_addr[15]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 21)
+Related violations: <none>
+
+XDCH-2#72 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_addr[16]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 21)
+Related violations: <none>
+
+XDCH-2#73 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_addr[17]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 21)
+Related violations: <none>
+
+XDCH-2#74 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_addr[18]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 21)
+Related violations: <none>
+
+XDCH-2#75 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_addr[19]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 21)
+Related violations: <none>
+
+XDCH-2#76 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_addr[1]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 21)
+Related violations: <none>
+
+XDCH-2#77 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_addr[2]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 21)
+Related violations: <none>
+
+XDCH-2#78 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_addr[3]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 21)
+Related violations: <none>
+
+XDCH-2#79 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_addr[4]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 21)
+Related violations: <none>
+
+XDCH-2#80 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_addr[5]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 21)
+Related violations: <none>
+
+XDCH-2#81 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_addr[6]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 21)
+Related violations: <none>
+
+XDCH-2#82 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_addr[7]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 21)
+Related violations: <none>
+
+XDCH-2#83 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_addr[8]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 21)
+Related violations: <none>
+
+XDCH-2#84 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_addr[9]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 21)
+Related violations: <none>
+
+XDCH-2#85 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_be_n[0]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_be_n[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 22)
+Related violations: <none>
+
+XDCH-2#86 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_be_n[1]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_be_n[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 22)
+Related violations: <none>
+
+XDCH-2#87 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_be_n[2]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_be_n[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 22)
+Related violations: <none>
+
+XDCH-2#88 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_be_n[3]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_be_n[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 22)
+Related violations: <none>
+
+XDCH-2#89 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_ce_n' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports base_ram_ce_n]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 26)
+Related violations: <none>
+
+XDCH-2#90 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[0]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#91 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[10]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#92 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[11]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#93 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[12]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#94 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[13]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#95 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[14]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#96 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[15]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#97 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[16]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#98 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[17]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#99 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[18]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#100 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[19]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#101 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[1]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#102 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[20]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#103 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[21]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#104 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[22]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#105 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[23]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#106 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[24]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#107 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[25]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#108 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[26]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#109 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[27]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#110 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[28]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#111 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[29]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#112 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[2]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#113 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[30]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#114 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[31]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#115 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[3]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#116 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[4]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#117 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[5]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#118 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[6]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#119 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[7]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#120 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[8]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#121 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_data[9]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {base_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 23)
+Related violations: <none>
+
+XDCH-2#122 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_oe_n' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports base_ram_oe_n]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 24)
+Related violations: <none>
+
+XDCH-2#123 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'base_ram_we_n' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports base_ram_we_n]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 25)
+Related violations: <none>
+
+XDCH-2#124 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_addr[0]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 27)
+Related violations: <none>
+
+XDCH-2#125 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_addr[10]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 27)
+Related violations: <none>
+
+XDCH-2#126 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_addr[11]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 27)
+Related violations: <none>
+
+XDCH-2#127 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_addr[12]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 27)
+Related violations: <none>
+
+XDCH-2#128 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_addr[13]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 27)
+Related violations: <none>
+
+XDCH-2#129 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_addr[14]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 27)
+Related violations: <none>
+
+XDCH-2#130 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_addr[15]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 27)
+Related violations: <none>
+
+XDCH-2#131 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_addr[16]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 27)
+Related violations: <none>
+
+XDCH-2#132 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_addr[17]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 27)
+Related violations: <none>
+
+XDCH-2#133 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_addr[18]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 27)
+Related violations: <none>
+
+XDCH-2#134 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_addr[19]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 27)
+Related violations: <none>
+
+XDCH-2#135 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_addr[1]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 27)
+Related violations: <none>
+
+XDCH-2#136 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_addr[2]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 27)
+Related violations: <none>
+
+XDCH-2#137 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_addr[3]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 27)
+Related violations: <none>
+
+XDCH-2#138 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_addr[4]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 27)
+Related violations: <none>
+
+XDCH-2#139 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_addr[5]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 27)
+Related violations: <none>
+
+XDCH-2#140 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_addr[6]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 27)
+Related violations: <none>
+
+XDCH-2#141 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_addr[7]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 27)
+Related violations: <none>
+
+XDCH-2#142 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_addr[8]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 27)
+Related violations: <none>
+
+XDCH-2#143 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_addr[9]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_addr[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 27)
+Related violations: <none>
+
+XDCH-2#144 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_be_n[0]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_be_n[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 28)
+Related violations: <none>
+
+XDCH-2#145 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_be_n[1]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_be_n[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 28)
+Related violations: <none>
+
+XDCH-2#146 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_be_n[2]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_be_n[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 28)
+Related violations: <none>
+
+XDCH-2#147 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_be_n[3]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_be_n[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 28)
+Related violations: <none>
+
+XDCH-2#148 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_ce_n' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports ext_ram_ce_n]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 32)
+Related violations: <none>
+
+XDCH-2#149 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[0]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#150 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[10]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#151 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[11]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#152 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[12]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#153 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[13]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#154 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[14]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#155 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[15]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#156 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[16]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#157 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[17]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#158 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[18]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#159 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[19]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#160 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[1]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#161 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[20]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#162 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[21]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#163 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[22]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#164 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[23]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#165 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[24]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#166 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[25]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#167 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[26]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#168 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[27]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#169 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[28]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#170 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[29]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#171 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[2]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#172 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[30]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#173 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[31]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#174 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[3]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#175 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[4]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#176 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[5]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#177 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[6]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#178 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[7]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#179 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[8]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#180 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_data[9]' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports {ext_ram_data[*]}]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 29)
+Related violations: <none>
+
+XDCH-2#181 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_oe_n' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports ext_ram_oe_n]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 30)
+Related violations: <none>
+
+XDCH-2#182 Warning
+Same min and max delay values on IO port  
+The same output delay of 2.000 ns has been defined on port 'ext_ram_we_n' relative to clock cpuclk for both max and min. Make sure this reflects the design intent.
+set_output_delay -clock [get_clocks -of_objects [get_pins clock_gen/clk_out1]] 2.000 [get_ports ext_ram_we_n]
+E:/vivado/codes/flow/CPUProject/CPUProject/thinpad_top.srcs/constrs_1/new/thinpad_top.xdc (Line: 31)
+Related violations: <none>
+
+
